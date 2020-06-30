@@ -1,7 +1,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 
-class AddDetails extends React.Component {
+class AddNewItem extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -65,7 +65,7 @@ class AddDetails extends React.Component {
         <button
           onClick={() => this.addTodoItem()}
           disabled={!blnIsValid}
-          className={blnIsValid ? "isEnable" : "isDisable"}
+          className={blnIsValid ? "isEnable" : ""}
         >
           Add Item
         </button>
@@ -83,4 +83,4 @@ class AddDetails extends React.Component {
   }
 }
 
-export default AddDetails;
+export default AddNewItem;
