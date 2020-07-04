@@ -60,3 +60,9 @@ body {
     margin-right: 15px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .todoItem-list input {
+    margin-left: 50px;
+  }
+}
